@@ -1,0 +1,145 @@
+body, html {
+    height: 100%;
+    background-color: beige;
+}
+
+.parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
+    padding: 15px 20px !important; }  
+
+.site-navbar {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    background: none;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 200;
+    background: #fff; }
+    .site-navbar .navbar-brand {
+      display: inline-block;
+      border: 2px solid #fff;
+      padding: 5px 20px;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: .2em; }
+      .site-navbar .navbar-brand:hover {
+        color: #fff; }
+    .site-navbar.bg-light {
+      background: transparent !important; }
+      @media (max-width: 991.98px) {
+        .site-navbar.bg-light {
+          background: #fff !important;
+          top: 0; }
+          .site-navbar.bg-light .navbar-brand {
+            display: inline-block;
+            font-size: 18px;
+            border: 2px solid #000;
+            padding: 2px 10px !important;
+            color: #000; } }
+    .site-navbar .navbar-nav > li > a {
+      color: #fff !important;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: .1em;
+      position: relative;
+      text-transform: uppercase;
+      letter-spacing: .2em; }
+      @media (max-width: 991.98px) {
+        .site-navbar .navbar-nav > li > a {
+          color: rgba(0, 0, 0, 0.7) !important; } }
+    .site-navbar .navbar-nav.active > a {
+      color: #57d131 !important; }
+
+    .site-navbar{
+    position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+    }
+
+.site-hero {
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden; }
+    .site-hero, .site-hero .row {
+      height: 100vh;
+      min-height: 800px; }
+    .site-hero:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5); }
+    .site-hero h1 {
+      font-weight: 200;
+      margin-bottom: 20px;
+      display: block; }
+      .site-hero h1 strong {
+        font-weight: 800; }
+      @media (min-width: 768px) {
+        .site-hero h1 {
+          font-size: 70px; } }
+    .site-hero h1, .site-hero .lead {
+      font-weight: 200;
+      color: #fff; }
+    .site-hero .lead {
+      line-height: 2; }
+    .site-hero .site-subheading {
+      max-width: 640px;
+      margin: 0 auto;
+      color: rgba(255, 255, 255, 0.5); }
+  
+  .site-section {
+    padding: 5em 0; }
+
+#navbaritems{
+    float: right;
+    font-size: x-large;
+}
+
+.copyright, .contact-form{
+    text-align: center;
+}
+
+.contact-form{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
